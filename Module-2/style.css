@@ -1,0 +1,71 @@
+.responsive {
+  display: flex;
+  justify-content: space-around;
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+
+  /* height: 300px; */
+  /* width: 800px; */
+  /* background-color: red; */
+  /* color: white; */
+  font-size: 60px;
+  /* padding: 10px; */
+}
+
+/* @media screen and (max-width: 1000px) {
+  .responsive {
+    width: 500px;
+  }
+} */
+
+/* @media screen and (min-width: 1000px) {
+  .responsive {
+    width: 500px;
+  }
+} */
+
+/* .animation-1 {
+  background-color: green;
+  color: white;
+  animation: color-change 5s forwards;
+} */
+/* 
+@keyframes color-change {
+  0% {
+    background-color: red;
+    transform: translateX(0);
+  }
+  50% {
+    background-color: green;
+  }
+  100% {
+    background-color: blue;
+    transform: translateX(100px);
+  }
+} */
+
+/* .back-red {
+  background-color: red !important;
+}
+
+.back-blue {
+  background-color: blue;
+  color: white;
+  margin-top: 10px;
+} */
+
+/* #test-id {
+  background-color: red;
+}
+
+.back-blue {
+  background-color: green;
+  color: white;
+  margin-top: 10px;
+} */
+
+/* div {
+  background-color: blue;
+  color: white;
+  margin-top: 10px;
+} */
