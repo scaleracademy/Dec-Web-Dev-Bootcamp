@@ -2,7 +2,7 @@
 
 ### Module 3
 
-Presentation Slide Link: 
+Presentation Slide Link: https://docs.google.com/presentation/d/1pgZ_WiEH0UeYuYdO76EExPf6gTF_Pp73G0vlgK1idD0/edit?usp=sharing
 
 YouTube Link: https://www.youtube.com/watch?v=or2zpTr9Q7M
 
