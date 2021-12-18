@@ -1,0 +1,11 @@
+.btn {
+  font-size: 50px;
+}
+
+.table {
+  margin-top: 50px;
+}
+
+.table td {
+  border: 1px solid #000;
+}
