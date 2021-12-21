@@ -11,14 +11,7 @@ const itemAPI =
 const requestBtn = document.getElementById("request-button");
 const tableResponse = document.getElementById("response");
 
-const beautifier = () => {
-  const obj = {
-    name: "Pen",
-    id: 1,
-    price: 10,
-    rating: 5,
-  };
-
+const beautifier = (obj) => {
   const HTML_MARKUP = `
     <tr>
       <td>${obj.name}</td>
@@ -35,8 +28,12 @@ const requestItems = async () => {
   // callback function
   const response = await fetch(itemAPI); // XMLHttpRequest
   const data = await response.json();
+  console.log(data);
 
-  tableResponse.innerHTML += beautifier();
+  const productList = data.product;
+  for (let i = 0; i < productList.length; i++) {
+    tableResponse.innerHTML += beautifier(productList[i]);
+  }
 };
 
 requestBtn.addEventListener("click", requestItems);
