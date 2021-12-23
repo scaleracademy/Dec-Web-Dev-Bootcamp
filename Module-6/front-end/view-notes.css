@@ -1,0 +1,25 @@
+.view-note-header {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.view-note-block-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.view-note-block {
+  width: 300px;
+  box-shadow: 0 0 10px 0px #0002;
+  border-radius: 4px;
+  margin: 10px auto;
+  list-style-type: none;
+  padding: 20px;
+}
+
+.view-note-author {
+  color: rgba(0, 107, 93, 0.72);
+  margin-top: 20px;
+}
