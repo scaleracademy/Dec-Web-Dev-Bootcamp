@@ -23,7 +23,9 @@ app.get("/", async (req, res) => {
   return res.json(noteList);
 });
 
-app.listen(4300, () => {
-  console.log("Server started");
+const port = process.env.PORT || 4600;
+
+app.listen(port, () => {
+  console.log(`Server started at port: ${port}`);
   connect();
 });

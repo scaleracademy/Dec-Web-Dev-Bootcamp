@@ -3,7 +3,7 @@ const createNotes = async () => {
   const authorText = document.getElementById("author-text").value;
 
   const response = await axios({
-    url: "http://127.0.0.1:4300",
+    url: "https://scaler-dec-bootcamp.herokuapp.com",
     method: "POST",
     data: {
       notes: notesText,
